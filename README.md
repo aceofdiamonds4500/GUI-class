@@ -1,4 +1,4 @@
-# GUI-class
+# GUI With Visual Basic
 ***Here's to a good semester!***
 
 ## Name
@@ -21,4 +21,3 @@
 - **Lua** for creating Garry's Mod workshop items
 
 [btw i have a lot of .md knowledge from Obsidian](https://forum.obsidian.md)
-![my arduino projects in a nutshell](D:\github_gif.gif)
