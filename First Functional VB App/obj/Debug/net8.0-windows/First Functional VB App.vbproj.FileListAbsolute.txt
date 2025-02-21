@@ -1,0 +1,17 @@
+C:\Users\tacop\source\repos\First Functional VB App\bin\Debug\net8.0-windows\First Functional VB App.exe
+C:\Users\tacop\source\repos\First Functional VB App\bin\Debug\net8.0-windows\First Functional VB App.deps.json
+C:\Users\tacop\source\repos\First Functional VB App\bin\Debug\net8.0-windows\First Functional VB App.runtimeconfig.json
+C:\Users\tacop\source\repos\First Functional VB App\bin\Debug\net8.0-windows\First Functional VB App.dll
+C:\Users\tacop\source\repos\First Functional VB App\bin\Debug\net8.0-windows\First Functional VB App.pdb
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First_Functional_VB_App.Form1.resources
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.AssemblyInfo.vb
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.dll
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\refint\First Functional VB App.dll
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.pdb
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.genruntimeconfig.cache
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\ref\First Functional VB App.dll
+C:\Users\tacop\source\repos\First Functional VB App\obj\Debug\net8.0-windows\First Functional VB App.sourcelink.json
