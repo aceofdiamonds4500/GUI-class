@@ -22,29 +22,31 @@ Partial Class Form1
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()>
 	Private Sub InitializeComponent()
-		ComboBox1 = New ComboBox()
+		Label1 = New Label()
 		SuspendLayout()
 		' 
-		' ComboBox1
+		' Label1
 		' 
-		ComboBox1.FormattingEnabled = True
-		ComboBox1.Location = New Point(271, 201)
-		ComboBox1.Name = "ComboBox1"
-		ComboBox1.Size = New Size(121, 23)
-		ComboBox1.TabIndex = 0
+		Label1.AutoSize = True
+		Label1.Location = New Point(162, 50)
+		Label1.Name = "Label1"
+		Label1.Size = New Size(31, 15)
+		Label1.TabIndex = 0
+		Label1.Text = "Text!"
 		' 
 		' Form1
 		' 
 		AutoScaleDimensions = New SizeF(7F, 15F)
 		AutoScaleMode = AutoScaleMode.Font
 		ClientSize = New Size(800, 450)
-		Controls.Add(ComboBox1)
+		Controls.Add(Label1)
 		Name = "Form1"
 		Text = "Form1"
 		ResumeLayout(False)
+		PerformLayout()
 	End Sub
 
 	Friend WithEvents ColorDialog1 As ColorDialog
-	Friend WithEvents ComboBox1 As ComboBox
+	Friend WithEvents Label1 As Label
 
 End Class
