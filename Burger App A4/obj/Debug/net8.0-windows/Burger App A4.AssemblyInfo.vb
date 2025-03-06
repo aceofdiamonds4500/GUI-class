@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Burger App A4"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0245ee42b45e48347e523048e6f3136cf33749d4"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Burger App A4"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Burger App A4"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

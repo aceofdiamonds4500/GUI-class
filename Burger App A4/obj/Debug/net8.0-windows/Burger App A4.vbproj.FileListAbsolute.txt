@@ -15,3 +15,21 @@ C:\Users\tacop\source\repos\Burger App A4\obj\Debug\net8.0-windows\Burger App A4
 C:\Users\tacop\source\repos\Burger App A4\obj\Debug\net8.0-windows\ref\Burger App A4.dll
 C:\Users\tacop\source\repos\Burger App A4\obj\Debug\net8.0-windows\Burger_App_A4.Resources.resources
 C:\Users\tacop\source\repos\Burger App A4\obj\Debug\net8.0-windows\Burger_App_A4.frmBurgers.resources
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\bin\Debug\net8.0-windows\Burger App A4.exe
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\bin\Debug\net8.0-windows\Burger App A4.deps.json
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\bin\Debug\net8.0-windows\Burger App A4.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\bin\Debug\net8.0-windows\Burger App A4.dll
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\bin\Debug\net8.0-windows\Burger App A4.pdb
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger_App_A4.frmBurgers.resources
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger_App_A4.Resources.resources
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.dll
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\refint\Burger App A4.dll
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.pdb
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\Burger App A4.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Burger App A4\obj\Debug\net8.0-windows\ref\Burger App A4.dll

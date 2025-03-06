@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\Burger App A4\\Burger App A4.vbproj",
+      "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Burger App A4\\Burger App A4.vbproj",
       "projectName": "Burger App A4",
-      "projectPath": "C:\\Users\\tacop\\source\\repos\\Burger App A4\\Burger App A4.vbproj",
+      "projectPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Burger App A4\\Burger App A4.vbproj",
       "packagesPath": "C:\\Users\\tacop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tacop\\source\\repos\\Burger App A4\\obj\\",
+      "outputPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Burger App A4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,17 @@
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\bin\Debug\net8.0-windows\Payroll P2.exe
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\bin\Debug\net8.0-windows\Payroll P2.deps.json
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\bin\Debug\net8.0-windows\Payroll P2.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\bin\Debug\net8.0-windows\Payroll P2.dll
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\bin\Debug\net8.0-windows\Payroll P2.pdb
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll_P2.Form1.resources
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.dll
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\refint\Payroll P2.dll
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.pdb
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\Payroll P2.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Payroll P2\obj\Debug\net8.0-windows\ref\Payroll P2.dll
