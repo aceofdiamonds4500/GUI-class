@@ -32,7 +32,7 @@ Public Class Form1
 	'Handles input validation from the user
 	Private Sub BttnCompute_Click(sender As Object, e As EventArgs) Handles BttnCompute.Click
 		If TextField.Text = "" Then
-			MessageBox.Show("Please input your Salary!", "Invalid Input")
+			MessageBox.Show("Please input your gross pay!", "Invalid Input")
 		ElseIf IsNumeric(TextField.Text) Then   'valid user input
 			GrossPay = TextField.Text
 			Dim result As DialogResult = MessageBox.Show(String.Format("Confirm input of {0:C}?", GrossPay), "Confirmation Window", MessageBoxButtons.YesNo)
