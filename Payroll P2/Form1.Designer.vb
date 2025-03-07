@@ -42,7 +42,7 @@ Partial Class Form1
 		CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
 		SuspendLayout()
 		' 
-		' Payroll Picture
+		' PictureBox1
 		' 
 		PictureBox1.Anchor = AnchorStyles.Top
 		PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
@@ -53,7 +53,7 @@ Partial Class Form1
 		PictureBox1.TabIndex = 2
 		PictureBox1.TabStop = False
 		' 
-		' Header for Program
+		' LabelHead
 		' 
 		LabelHead.Anchor = AnchorStyles.Top
 		LabelHead.AutoSize = True
@@ -64,7 +64,7 @@ Partial Class Form1
 		LabelHead.TabIndex = 1
 		LabelHead.Text = "Payroll Calculator"
 		' 
-		' Sub-header
+		' LabelSubHead
 		' 
 		LabelSubHead.Anchor = AnchorStyles.Top
 		LabelSubHead.AutoSize = True
@@ -76,7 +76,7 @@ Partial Class Form1
 		LabelSubHead.Text = "Paycheck" & vbCrLf & "Calculation"
 		LabelSubHead.TextAlign = ContentAlignment.TopCenter
 		' 
-		' Label for the TextBox
+		' LabelText
 		' 
 		LabelText.Anchor = AnchorStyles.Top
 		LabelText.AutoSize = True
@@ -87,7 +87,7 @@ Partial Class Form1
 		LabelText.TabIndex = 5
 		LabelText.Text = "Enter Gross Pay:"
 		' 
-		' TextBox for user input
+		' TextField
 		' 
 		TextField.Anchor = AnchorStyles.Top
 		TextField.Location = New Point(360, 317)
@@ -96,7 +96,7 @@ Partial Class Form1
 		TextField.TabIndex = 6
 		TextField.TextAlign = HorizontalAlignment.Center
 		' 
-		' Compute Pay Button
+		' BttnCompute
 		' 
 		BttnCompute.Anchor = AnchorStyles.Top
 		BttnCompute.BackColor = SystemColors.MenuHighlight
@@ -110,7 +110,7 @@ Partial Class Form1
 		BttnCompute.Text = "Compute Taxes"
 		BttnCompute.UseVisualStyleBackColor = False
 		' 
-		' Clear Button
+		' BttnClear
 		' 
 		BttnClear.Anchor = AnchorStyles.Top
 		BttnClear.BackColor = SystemColors.MenuHighlight
@@ -125,7 +125,7 @@ Partial Class Form1
 		BttnClear.TextImageRelation = TextImageRelation.ImageBeforeText
 		BttnClear.UseVisualStyleBackColor = False
 		' 
-		' Exit Button
+		' BttnExit
 		' 
 		BttnExit.Anchor = AnchorStyles.Top
 		BttnExit.BackColor = SystemColors.MenuHighlight
@@ -139,7 +139,7 @@ Partial Class Form1
 		BttnExit.Text = "Exit"
 		BttnExit.UseVisualStyleBackColor = False
 		' 
-		' FICA Label
+		' LabelFica
 		' 
 		LabelFica.AutoSize = True
 		LabelFica.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -149,17 +149,7 @@ Partial Class Form1
 		LabelFica.TabIndex = 10
 		LabelFica.Text = "FICA: "
 		' 
-		' FICA Output
-		' 
-		FICAText.AutoSize = True
-		FICAText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-		FICAText.Location = New Point(229, 425)
-		FICAText.Name = "FICAText"
-		FICAText.Size = New Size(50, 21)
-		FICAText.TabIndex = 14
-		FICAText.Text = "$0.00"
-		' 
-		' Federal Label
+		' LabelFed
 		' 
 		LabelFed.AutoSize = True
 		LabelFed.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -169,17 +159,7 @@ Partial Class Form1
 		LabelFed.TabIndex = 11
 		LabelFed.Text = "Federal Tax: "
 		' 
-		' Federal Output
-		' 
-		FederalText.AutoSize = True
-		FederalText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-		FederalText.Location = New Point(448, 425)
-		FederalText.Name = "FederalText"
-		FederalText.Size = New Size(50, 21)
-		FederalText.TabIndex = 15
-		FederalText.Text = "$0.00"
-		' 
-		' State Label
+		' LabelState
 		' 
 		LabelState.AutoSize = True
 		LabelState.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -189,17 +169,7 @@ Partial Class Form1
 		LabelState.TabIndex = 12
 		LabelState.Text = "State Tax:"
 		' 
-		' State Output
-		' 
-		StateText.AutoSize = True
-		StateText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-		StateText.Location = New Point(635, 425)
-		StateText.Name = "StateText"
-		StateText.Size = New Size(50, 21)
-		StateText.TabIndex = 16
-		StateText.Text = "$0.00"
-		' 
-		' Net Income Label
+		' LabelNetIncome
 		' 
 		LabelNetIncome.AutoSize = True
 		LabelNetIncome.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
@@ -209,9 +179,43 @@ Partial Class Form1
 		LabelNetIncome.TabIndex = 13
 		LabelNetIncome.Text = "Net Paycheck Income:"
 		' 
-		' Net Income Output
+		' FICAText
+		' 
+		FICAText.AutoSize = True
+		FICAText.BackColor = SystemColors.ButtonHighlight
+		FICAText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		FICAText.Location = New Point(229, 425)
+		FICAText.Name = "FICAText"
+		FICAText.Size = New Size(50, 21)
+		FICAText.TabIndex = 14
+		FICAText.Text = "$0.00"
+		' 
+		' FederalText
+		' 
+		FederalText.AutoSize = True
+		FederalText.BackColor = SystemColors.ButtonHighlight
+		FederalText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		FederalText.Location = New Point(448, 425)
+		FederalText.Name = "FederalText"
+		FederalText.Size = New Size(50, 21)
+		FederalText.TabIndex = 15
+		FederalText.Text = "$0.00"
+		' 
+		' StateText
+		' 
+		StateText.AutoSize = True
+		StateText.BackColor = SystemColors.ButtonHighlight
+		StateText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		StateText.Location = New Point(635, 425)
+		StateText.Name = "StateText"
+		StateText.Size = New Size(50, 21)
+		StateText.TabIndex = 16
+		StateText.Text = "$0.00"
+		' 
+		' NetIncomeText
 		' 
 		NetIncomeText.AutoSize = True
+		NetIncomeText.BackColor = SystemColors.ButtonHighlight
 		NetIncomeText.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
 		NetIncomeText.Location = New Point(465, 475)
 		NetIncomeText.Name = "NetIncomeText"
@@ -219,11 +223,11 @@ Partial Class Form1
 		NetIncomeText.TabIndex = 17
 		NetIncomeText.Text = "$0.00"
 		' 
-		' Window
+		' Form1
 		' 
 		AutoScaleDimensions = New SizeF(7.0F, 15.0F)
 		AutoScaleMode = AutoScaleMode.Font
-		BackColor = SystemColors.Control
+		BackColor = SystemColors.ActiveCaption
 		ClientSize = New Size(800, 531)
 		Controls.Add(NetIncomeText)
 		Controls.Add(StateText)
