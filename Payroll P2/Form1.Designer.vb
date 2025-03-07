@@ -253,10 +253,8 @@ Partial Class Form1
 	End Sub
 
 	Friend WithEvents ColorDialog1 As ColorDialog
-	Friend WithEvents Label1 As Label
 	Friend WithEvents LabelHead As Label
 	Friend WithEvents PictureBox1 As PictureBox
-	Friend WithEvents Label3 As Label
 	Friend WithEvents LabelSubHead As Label
 	Friend WithEvents LabelText As Label
 	Friend WithEvents TextField As TextBox
