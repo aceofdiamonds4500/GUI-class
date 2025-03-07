@@ -42,7 +42,7 @@ Partial Class Form1
 		CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
 		SuspendLayout()
 		' 
-		' PictureBox1
+		' Payroll Picture
 		' 
 		PictureBox1.Anchor = AnchorStyles.Top
 		PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
@@ -53,7 +53,7 @@ Partial Class Form1
 		PictureBox1.TabIndex = 2
 		PictureBox1.TabStop = False
 		' 
-		' LabelHead
+		' Header for Program
 		' 
 		LabelHead.Anchor = AnchorStyles.Top
 		LabelHead.AutoSize = True
@@ -64,7 +64,7 @@ Partial Class Form1
 		LabelHead.TabIndex = 1
 		LabelHead.Text = "Payroll Calculator"
 		' 
-		' LabelSubHead
+		' Sub-header
 		' 
 		LabelSubHead.Anchor = AnchorStyles.Top
 		LabelSubHead.AutoSize = True
@@ -76,7 +76,7 @@ Partial Class Form1
 		LabelSubHead.Text = "Paycheck" & vbCrLf & "Calculation"
 		LabelSubHead.TextAlign = ContentAlignment.TopCenter
 		' 
-		' LabelText
+		' Label for the TextBox
 		' 
 		LabelText.Anchor = AnchorStyles.Top
 		LabelText.AutoSize = True
@@ -87,7 +87,7 @@ Partial Class Form1
 		LabelText.TabIndex = 5
 		LabelText.Text = "Enter Gross Pay:"
 		' 
-		' TextField
+		' TextBox for user input
 		' 
 		TextField.Anchor = AnchorStyles.Top
 		TextField.Location = New Point(360, 317)
@@ -96,7 +96,7 @@ Partial Class Form1
 		TextField.TabIndex = 6
 		TextField.TextAlign = HorizontalAlignment.Center
 		' 
-		' BttnCompute
+		' Compute Pay Button
 		' 
 		BttnCompute.Anchor = AnchorStyles.Top
 		BttnCompute.BackColor = SystemColors.MenuHighlight
@@ -110,7 +110,7 @@ Partial Class Form1
 		BttnCompute.Text = "Compute Taxes"
 		BttnCompute.UseVisualStyleBackColor = False
 		' 
-		' BttnClear
+		' Clear Button
 		' 
 		BttnClear.Anchor = AnchorStyles.Top
 		BttnClear.BackColor = SystemColors.MenuHighlight
@@ -125,7 +125,7 @@ Partial Class Form1
 		BttnClear.TextImageRelation = TextImageRelation.ImageBeforeText
 		BttnClear.UseVisualStyleBackColor = False
 		' 
-		' BttnExit
+		' Exit Button
 		' 
 		BttnExit.Anchor = AnchorStyles.Top
 		BttnExit.BackColor = SystemColors.MenuHighlight
@@ -139,7 +139,7 @@ Partial Class Form1
 		BttnExit.Text = "Exit"
 		BttnExit.UseVisualStyleBackColor = False
 		' 
-		' LabelFica
+		' FICA Label
 		' 
 		LabelFica.AutoSize = True
 		LabelFica.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -149,37 +149,7 @@ Partial Class Form1
 		LabelFica.TabIndex = 10
 		LabelFica.Text = "FICA: "
 		' 
-		' LabelFed
-		' 
-		LabelFed.AutoSize = True
-		LabelFed.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-		LabelFed.Location = New Point(344, 425)
-		LabelFed.Name = "LabelFed"
-		LabelFed.Size = New Size(104, 21)
-		LabelFed.TabIndex = 11
-		LabelFed.Text = "Federal Tax: "
-		' 
-		' LabelState
-		' 
-		LabelState.AutoSize = True
-		LabelState.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
-		LabelState.Location = New Point(542, 425)
-		LabelState.Name = "LabelState"
-		LabelState.Size = New Size(83, 21)
-		LabelState.TabIndex = 12
-		LabelState.Text = "State Tax:"
-		' 
-		' LabelNetIncome
-		' 
-		LabelNetIncome.AutoSize = True
-		LabelNetIncome.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		LabelNetIncome.Location = New Point(218, 475)
-		LabelNetIncome.Name = "LabelNetIncome"
-		LabelNetIncome.Size = New Size(230, 30)
-		LabelNetIncome.TabIndex = 13
-		LabelNetIncome.Text = "Net Paycheck Income:"
-		' 
-		' FICAText
+		' FICA Output
 		' 
 		FICAText.AutoSize = True
 		FICAText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -189,7 +159,17 @@ Partial Class Form1
 		FICAText.TabIndex = 14
 		FICAText.Text = "$0.00"
 		' 
-		' FederalText
+		' Federal Label
+		' 
+		LabelFed.AutoSize = True
+		LabelFed.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		LabelFed.Location = New Point(344, 425)
+		LabelFed.Name = "LabelFed"
+		LabelFed.Size = New Size(104, 21)
+		LabelFed.TabIndex = 11
+		LabelFed.Text = "Federal Tax: "
+		' 
+		' Federal Output
 		' 
 		FederalText.AutoSize = True
 		FederalText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -199,7 +179,17 @@ Partial Class Form1
 		FederalText.TabIndex = 15
 		FederalText.Text = "$0.00"
 		' 
-		' StateText
+		' State Label
+		' 
+		LabelState.AutoSize = True
+		LabelState.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		LabelState.Location = New Point(542, 425)
+		LabelState.Name = "LabelState"
+		LabelState.Size = New Size(83, 21)
+		LabelState.TabIndex = 12
+		LabelState.Text = "State Tax:"
+		' 
+		' State Output
 		' 
 		StateText.AutoSize = True
 		StateText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
@@ -209,7 +199,17 @@ Partial Class Form1
 		StateText.TabIndex = 16
 		StateText.Text = "$0.00"
 		' 
-		' NetIncomeText
+		' Net Income Label
+		' 
+		LabelNetIncome.AutoSize = True
+		LabelNetIncome.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+		LabelNetIncome.Location = New Point(218, 475)
+		LabelNetIncome.Name = "LabelNetIncome"
+		LabelNetIncome.Size = New Size(230, 30)
+		LabelNetIncome.TabIndex = 13
+		LabelNetIncome.Text = "Net Paycheck Income:"
+		' 
+		' Net Income Output
 		' 
 		NetIncomeText.AutoSize = True
 		NetIncomeText.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
@@ -219,7 +219,7 @@ Partial Class Form1
 		NetIncomeText.TabIndex = 17
 		NetIncomeText.Text = "$0.00"
 		' 
-		' Form1
+		' Window
 		' 
 		AutoScaleDimensions = New SizeF(7.0F, 15.0F)
 		AutoScaleMode = AutoScaleMode.Font
