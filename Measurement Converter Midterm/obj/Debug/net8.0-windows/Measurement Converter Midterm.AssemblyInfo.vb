@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("Payroll P2"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("Measurement Converter Midterm"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917a764372a7125348eeff863f50d8411b3c7c6f"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("Payroll P2"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("Payroll P2"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("Measurement Converter Midterm"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("Measurement Converter Midterm"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
