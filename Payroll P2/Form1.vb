@@ -1,7 +1,7 @@
 ﻿'''---------------------------
 ''' Author: Nicholas Cieplensky
 ''' Project: Payroll Calculator Application
-''' Class Names: frmBurgers
+''' Class Names: Form1
 ''' 
 ''' Description:
 '''	This program calculates payroll using the gross pay of the employee and muliplying it
