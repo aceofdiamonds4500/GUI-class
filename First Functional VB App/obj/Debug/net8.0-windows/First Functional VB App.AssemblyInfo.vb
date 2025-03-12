@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("First Functional VB App"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+849848710c8f1ea2aa8f5054bc8adc65f8efa1e7"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c62cd053c52d75889c20f14a2579526ebff6f44b"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("First Functional VB App"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("First Functional VB App"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj": {}
+    "C:\\Users\\tacop\\source\\repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj": {
+    "C:\\Users\\tacop\\source\\repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj",
+        "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj",
         "projectName": "Measurement Converter Midterm",
-        "projectPath": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj",
+        "projectPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Measurement Converter Midterm\\Measurement Converter Midterm.vbproj",
         "packagesPath": "C:\\Users\\tacop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\Measurement Converter Midterm\\obj\\",
+        "outputPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\Measurement Converter Midterm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

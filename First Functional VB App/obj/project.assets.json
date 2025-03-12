@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\First Functional VB App\\First Functional VB App.vbproj",
+      "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\GUI-class\\First Functional VB App\\First Functional VB App.vbproj",
       "projectName": "First Functional VB App",
-      "projectPath": "C:\\Users\\tacop\\source\\repos\\First Functional VB App\\First Functional VB App.vbproj",
+      "projectPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\First Functional VB App\\First Functional VB App.vbproj",
       "packagesPath": "C:\\Users\\tacop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tacop\\source\\repos\\First Functional VB App\\obj\\",
+      "outputPath": "C:\\Users\\tacop\\source\\repos\\GUI-class\\First Functional VB App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

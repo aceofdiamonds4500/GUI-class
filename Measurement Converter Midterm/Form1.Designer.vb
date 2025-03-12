@@ -63,11 +63,13 @@ Partial Class Form1
 		' 
 		TxtInput.Anchor = AnchorStyles.Top
 		TxtInput.BackColor = Color.Blue
+		TxtInput.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		TxtInput.ForeColor = Color.White
 		TxtInput.Location = New Point(506, 107)
 		TxtInput.Name = "TxtInput"
-		TxtInput.Size = New Size(100, 23)
+		TxtInput.Size = New Size(100, 27)
 		TxtInput.TabIndex = 2
+		TxtInput.TextAlign = HorizontalAlignment.Center
 		' 
 		' GrpRadios
 		' 
@@ -121,6 +123,7 @@ Partial Class Form1
 		' BtnConvert
 		' 
 		BtnConvert.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left
+		BtnConvert.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		BtnConvert.Location = New Point(12, 375)
 		BtnConvert.Name = "BtnConvert"
 		BtnConvert.Size = New Size(185, 62)
@@ -131,7 +134,8 @@ Partial Class Form1
 		' BtnClear
 		' 
 		BtnClear.Anchor = AnchorStyles.Bottom
-		BtnClear.Location = New Point(216, 377)
+		BtnClear.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+		BtnClear.Location = New Point(219, 375)
 		BtnClear.Name = "BtnClear"
 		BtnClear.Size = New Size(185, 62)
 		BtnClear.TabIndex = 6
@@ -141,6 +145,7 @@ Partial Class Form1
 		' BtnExit
 		' 
 		BtnExit.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+		BtnExit.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		BtnExit.Location = New Point(425, 374)
 		BtnExit.Name = "BtnExit"
 		BtnExit.Size = New Size(185, 63)
@@ -153,11 +158,12 @@ Partial Class Form1
 		LblOutput.Anchor = AnchorStyles.Top
 		LblOutput.AutoSize = True
 		LblOutput.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-		LblOutput.Location = New Point(358, 301)
+		LblOutput.Location = New Point(285, 301)
 		LblOutput.Name = "LblOutput"
-		LblOutput.Size = New Size(202, 30)
+		LblOutput.Size = New Size(203, 30)
 		LblOutput.TabIndex = 8
-		LblOutput.Text = "x Meters is x inches."
+		LblOutput.Text = "x meters is x inches."
+		LblOutput.TextAlign = ContentAlignment.MiddleRight
 		' 
 		' Form1
 		' 
