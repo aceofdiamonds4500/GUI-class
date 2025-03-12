@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Measurement Converter Midterm"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+547b52c0f8a4c617e11d33edd4885e3dad63e2df"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7cf17f34c1bcb244829dbb692b3b00bd8c5e0b"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Measurement Converter Midterm"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Measurement Converter Midterm"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

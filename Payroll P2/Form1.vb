@@ -34,13 +34,17 @@ Public Class Form1
 		If TextField.Text = "" Then
 			MessageBox.Show("Please input your gross pay!", "Invalid Input")
 		ElseIf IsNumeric(TextField.Text) Then   'valid user input
-			GrossPay = TextField.Text
-			Dim result As DialogResult = MessageBox.Show(String.Format("Confirm input of {0:C}?", GrossPay), "Confirmation Window", MessageBoxButtons.YesNo)
-			If result = DialogResult.Yes Then
-				CalculatePay()
+			If TextField.Text < 0 Then
+				MessageBox.Show("Gross pay cannot be less than zero!", "Invalid Input")
+			Else
+				GrossPay = TextField.Text
+				Dim result As DialogResult = MessageBox.Show(String.Format("Confirm input of {0:C}?", GrossPay), "Confirmation Window", MessageBoxButtons.YesNo)
+				If result = DialogResult.Yes Then
+					CalculatePay()
+				End If
 			End If
 		Else
-			MessageBox.Show("Make sure your input is numerical!", "Invalid Input")
+				MessageBox.Show("Make sure your input is numerical!", "Invalid Input")
 		End If
 	End Sub
 

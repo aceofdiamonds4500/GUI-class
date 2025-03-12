@@ -22,7 +22,6 @@ Partial Class Form1
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()>
 	Private Sub InitializeComponent()
-		Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
 		PictureBox1 = New PictureBox()
 		LabelHead = New Label()
 		LabelSubHead = New Label()
@@ -45,7 +44,7 @@ Partial Class Form1
 		' PictureBox1
 		' 
 		PictureBox1.Anchor = AnchorStyles.Top
-		PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+		PictureBox1.Image = My.Resources.Resources.payroll
 		PictureBox1.Location = New Point(-14, 0)
 		PictureBox1.Name = "PictureBox1"
 		PictureBox1.Size = New Size(420, 262)
@@ -57,7 +56,7 @@ Partial Class Form1
 		' 
 		LabelHead.Anchor = AnchorStyles.Top
 		LabelHead.AutoSize = True
-		LabelHead.Font = New Font("Elephant", 28.0F)
+		LabelHead.Font = New Font("Elephant", 28F)
 		LabelHead.Location = New Point(417, 50)
 		LabelHead.Name = "LabelHead"
 		LabelHead.Size = New Size(371, 49)
@@ -142,7 +141,7 @@ Partial Class Form1
 		' LabelFica
 		' 
 		LabelFica.AutoSize = True
-		LabelFica.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		LabelFica.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		LabelFica.Location = New Point(149, 425)
 		LabelFica.Name = "LabelFica"
 		LabelFica.Size = New Size(52, 21)
@@ -152,7 +151,7 @@ Partial Class Form1
 		' LabelFed
 		' 
 		LabelFed.AutoSize = True
-		LabelFed.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		LabelFed.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		LabelFed.Location = New Point(344, 425)
 		LabelFed.Name = "LabelFed"
 		LabelFed.Size = New Size(104, 21)
@@ -162,7 +161,7 @@ Partial Class Form1
 		' LabelState
 		' 
 		LabelState.AutoSize = True
-		LabelState.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		LabelState.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		LabelState.Location = New Point(542, 425)
 		LabelState.Name = "LabelState"
 		LabelState.Size = New Size(83, 21)
@@ -183,7 +182,7 @@ Partial Class Form1
 		' 
 		FICAText.AutoSize = True
 		FICAText.BackColor = SystemColors.ButtonHighlight
-		FICAText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		FICAText.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		FICAText.Location = New Point(229, 425)
 		FICAText.Name = "FICAText"
 		FICAText.Size = New Size(50, 21)
@@ -194,7 +193,7 @@ Partial Class Form1
 		' 
 		FederalText.AutoSize = True
 		FederalText.BackColor = SystemColors.ButtonHighlight
-		FederalText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		FederalText.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		FederalText.Location = New Point(448, 425)
 		FederalText.Name = "FederalText"
 		FederalText.Size = New Size(50, 21)
@@ -205,7 +204,7 @@ Partial Class Form1
 		' 
 		StateText.AutoSize = True
 		StateText.BackColor = SystemColors.ButtonHighlight
-		StateText.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+		StateText.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
 		StateText.Location = New Point(635, 425)
 		StateText.Name = "StateText"
 		StateText.Size = New Size(50, 21)
@@ -225,7 +224,7 @@ Partial Class Form1
 		' 
 		' Form1
 		' 
-		AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+		AutoScaleDimensions = New SizeF(7F, 15F)
 		AutoScaleMode = AutoScaleMode.Font
 		BackColor = SystemColors.ActiveCaption
 		ClientSize = New Size(800, 531)
