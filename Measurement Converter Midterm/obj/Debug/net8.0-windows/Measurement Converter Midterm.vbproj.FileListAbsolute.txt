@@ -1,0 +1,18 @@
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\bin\Debug\net8.0-windows\Measurement Converter Midterm.exe
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\bin\Debug\net8.0-windows\Measurement Converter Midterm.deps.json
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\bin\Debug\net8.0-windows\Measurement Converter Midterm.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\bin\Debug\net8.0-windows\Measurement Converter Midterm.dll
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\bin\Debug\net8.0-windows\Measurement Converter Midterm.pdb
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement_Converter_Midterm.Form1.resources
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement_Converter_Midterm.Resources.resources
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.dll
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\refint\Measurement Converter Midterm.dll
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.pdb
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\Measurement Converter Midterm.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Measurement Converter Midterm\obj\Debug\net8.0-windows\ref\Measurement Converter Midterm.dll
