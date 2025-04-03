@@ -185,16 +185,19 @@ Partial Class Form1
 		' 
 		' lblTotal
 		' 
+		lblTotal.Anchor = AnchorStyles.Top
 		lblTotal.AutoSize = True
-		lblTotal.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblTotal.Location = New Point(114, 390)
+		lblTotal.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+		lblTotal.Location = New Point(114, 382)
 		lblTotal.Name = "lblTotal"
-		lblTotal.Size = New Size(109, 25)
+		lblTotal.Size = New Size(86, 20)
 		lblTotal.TabIndex = 7
 		lblTotal.Text = "Please Pay:"
+		lblTotal.TextAlign = ContentAlignment.MiddleCenter
 		' 
 		' lblLoyalty
 		' 
+		lblLoyalty.Anchor = AnchorStyles.Top Or AnchorStyles.Right
 		lblLoyalty.AutoSize = True
 		lblLoyalty.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
 		lblLoyalty.Location = New Point(507, 274)
@@ -205,13 +208,16 @@ Partial Class Form1
 		' 
 		' txtLoyaltyInp
 		' 
+		txtLoyaltyInp.Anchor = AnchorStyles.Top Or AnchorStyles.Right
 		txtLoyaltyInp.Location = New Point(649, 276)
 		txtLoyaltyInp.Name = "txtLoyaltyInp"
 		txtLoyaltyInp.Size = New Size(63, 23)
 		txtLoyaltyInp.TabIndex = 9
+		txtLoyaltyInp.TextAlign = HorizontalAlignment.Center
 		' 
 		' btnCalculate
 		' 
+		btnCalculate.Anchor = AnchorStyles.Top Or AnchorStyles.Right
 		btnCalculate.FlatStyle = FlatStyle.Flat
 		btnCalculate.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
 		btnCalculate.Location = New Point(450, 326)
@@ -223,6 +229,7 @@ Partial Class Form1
 		' 
 		' btnClear
 		' 
+		btnClear.Anchor = AnchorStyles.Top Or AnchorStyles.Right
 		btnClear.FlatStyle = FlatStyle.Flat
 		btnClear.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
 		btnClear.Location = New Point(660, 326)

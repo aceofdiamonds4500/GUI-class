@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Catering Order P3"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfd31be52c8a6a324177eafe3a6a224d68f1d464"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d08c8fbce0cdf4ed1dbec19f99249cbe9645b52"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Catering Order P3"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Catering Order P3"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
