@@ -78,6 +78,7 @@ Partial Class Form1
 		' rdoGourmet
 		' 
 		rdoGourmet.AutoSize = True
+		rdoGourmet.Cursor = Cursors.Hand
 		rdoGourmet.FlatStyle = FlatStyle.System
 		rdoGourmet.Font = New Font("Courier New", 9.75F)
 		rdoGourmet.Location = New Point(13, 14)
@@ -91,6 +92,7 @@ Partial Class Form1
 		' rdoPinwheel
 		' 
 		rdoPinwheel.AutoSize = True
+		rdoPinwheel.Cursor = Cursors.Hand
 		rdoPinwheel.Font = New Font("Courier New", 9.75F)
 		rdoPinwheel.Location = New Point(13, 39)
 		rdoPinwheel.Name = "rdoPinwheel"
@@ -116,6 +118,7 @@ Partial Class Form1
 		' rdoFruit
 		' 
 		rdoFruit.AutoSize = True
+		rdoFruit.Cursor = Cursors.Hand
 		rdoFruit.Font = New Font("Courier New", 9.75F)
 		rdoFruit.Location = New Point(13, 114)
 		rdoFruit.Name = "rdoFruit"
@@ -128,6 +131,7 @@ Partial Class Form1
 		' rdoSausCheese
 		' 
 		rdoSausCheese.AutoSize = True
+		rdoSausCheese.Cursor = Cursors.Hand
 		rdoSausCheese.Font = New Font("Courier New", 9.75F)
 		rdoSausCheese.Location = New Point(13, 89)
 		rdoSausCheese.Name = "rdoSausCheese"
@@ -140,6 +144,7 @@ Partial Class Form1
 		' rdoVeggie
 		' 
 		rdoVeggie.AutoSize = True
+		rdoVeggie.Cursor = Cursors.Hand
 		rdoVeggie.Font = New Font("Courier New", 9.75F)
 		rdoVeggie.Location = New Point(13, 64)
 		rdoVeggie.Name = "rdoVeggie"
@@ -188,7 +193,7 @@ Partial Class Form1
 		lblTotal.Anchor = AnchorStyles.Top
 		lblTotal.AutoSize = True
 		lblTotal.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblTotal.Location = New Point(69, 373)
+		lblTotal.Location = New Point(69, 393)
 		lblTotal.Name = "lblTotal"
 		lblTotal.Size = New Size(86, 20)
 		lblTotal.TabIndex = 7
@@ -218,6 +223,7 @@ Partial Class Form1
 		' btnCalculate
 		' 
 		btnCalculate.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+		btnCalculate.Cursor = Cursors.Hand
 		btnCalculate.FlatStyle = FlatStyle.Flat
 		btnCalculate.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
 		btnCalculate.Location = New Point(450, 326)
@@ -230,6 +236,7 @@ Partial Class Form1
 		' btnClear
 		' 
 		btnClear.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+		btnClear.Cursor = Cursors.Hand
 		btnClear.FlatStyle = FlatStyle.Flat
 		btnClear.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold)
 		btnClear.Location = New Point(660, 326)
@@ -256,6 +263,7 @@ Partial Class Form1
 		Controls.Add(lblHeader)
 		Controls.Add(BannerImg)
 		Name = "Form1"
+		StartPosition = FormStartPosition.CenterScreen
 		Text = "Catering"
 		CType(BannerImg, ComponentModel.ISupportInitialize).EndInit()
 		Panel1.ResumeLayout(False)
