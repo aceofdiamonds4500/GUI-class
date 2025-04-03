@@ -1,0 +1,18 @@
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\bin\Debug\net8.0-windows\Catering Order P3.exe
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\bin\Debug\net8.0-windows\Catering Order P3.deps.json
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\bin\Debug\net8.0-windows\Catering Order P3.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\bin\Debug\net8.0-windows\Catering Order P3.dll
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\bin\Debug\net8.0-windows\Catering Order P3.pdb
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering_Order_P3.Form1.resources
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering_Order_P3.Resources.resources
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.dll
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\refint\Catering Order P3.dll
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.pdb
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\Catering Order P3.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Catering Order P3\obj\Debug\net8.0-windows\ref\Catering Order P3.dll
