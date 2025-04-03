@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("GUI Layout A3"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917a764372a7125348eeff863f50d8411b3c7c6f"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1dfb5792676b447c87d5b1a228ec3c55305886"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("GUI Layout A3"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("GUI Layout A3"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

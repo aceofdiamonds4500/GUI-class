@@ -13,12 +13,12 @@ Option Explicit On
 
 Imports System
 Imports System.Reflection
-<Assembly: System.Reflection.AssemblyCompanyAttribute("Measurement Converter Midterm"),  _
- Assembly: System.Reflection.AssemblyConfigurationAttribute("Release"),  _
+<Assembly: System.Reflection.AssemblyCompanyAttribute("Catering Order P3"),  _
+ Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
  Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b1dfb5792676b447c87d5b1a228ec3c55305886"),  _
- Assembly: System.Reflection.AssemblyProductAttribute("Measurement Converter Midterm"),  _
- Assembly: System.Reflection.AssemblyTitleAttribute("Measurement Converter Midterm"),  _
+ Assembly: System.Reflection.AssemblyProductAttribute("Catering Order P3"),  _
+ Assembly: System.Reflection.AssemblyTitleAttribute("Catering Order P3"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 

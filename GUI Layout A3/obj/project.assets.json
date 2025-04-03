@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tacop\\source\\repos\\GUI Layout A3\\GUI Layout A3.vbproj",
+      "projectUniqueName": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\GUI Layout A3\\GUI Layout A3.vbproj",
       "projectName": "GUI Layout A3",
-      "projectPath": "C:\\Users\\tacop\\source\\repos\\GUI Layout A3\\GUI Layout A3.vbproj",
+      "projectPath": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\GUI Layout A3\\GUI Layout A3.vbproj",
       "packagesPath": "C:\\Users\\tacop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tacop\\source\\repos\\GUI Layout A3\\obj\\",
+      "outputPath": "C:\\Users\\tacop\\Source\\Repos\\GUI-class\\GUI Layout A3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
