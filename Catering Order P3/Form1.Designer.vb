@@ -59,7 +59,7 @@ Partial Class Form1
 		' 
 		lblHeader.AutoSize = True
 		lblHeader.Font = New Font("Century Schoolbook", 24.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblHeader.Location = New Point(114, 28)
+		lblHeader.Location = New Point(69, 19)
 		lblHeader.Name = "lblHeader"
 		lblHeader.Size = New Size(165, 37)
 		lblHeader.TabIndex = 1
@@ -69,7 +69,7 @@ Partial Class Form1
 		' 
 		lblSubHeader.AutoSize = True
 		lblSubHeader.Font = New Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-		lblSubHeader.Location = New Point(114, 65)
+		lblSubHeader.Location = New Point(69, 56)
 		lblSubHeader.Name = "lblSubHeader"
 		lblSubHeader.Size = New Size(106, 25)
 		lblSubHeader.TabIndex = 2
@@ -108,7 +108,7 @@ Partial Class Form1
 		Panel1.Controls.Add(rdoVeggie)
 		Panel1.Controls.Add(rdoGourmet)
 		Panel1.Controls.Add(rdoPinwheel)
-		Panel1.Location = New Point(79, 103)
+		Panel1.Location = New Point(34, 94)
 		Panel1.Name = "Panel1"
 		Panel1.Size = New Size(273, 146)
 		Panel1.TabIndex = 5
@@ -154,7 +154,7 @@ Partial Class Form1
 		Panel2.BackColor = Color.FromArgb(CByte(255), CByte(255), CByte(192))
 		Panel2.Controls.Add(rdoPayPre)
 		Panel2.Controls.Add(rdoPayPickup)
-		Panel2.Location = New Point(124, 276)
+		Panel2.Location = New Point(79, 267)
 		Panel2.Name = "Panel2"
 		Panel2.Size = New Size(187, 72)
 		Panel2.TabIndex = 6
@@ -188,7 +188,7 @@ Partial Class Form1
 		lblTotal.Anchor = AnchorStyles.Top
 		lblTotal.AutoSize = True
 		lblTotal.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblTotal.Location = New Point(114, 382)
+		lblTotal.Location = New Point(69, 373)
 		lblTotal.Name = "lblTotal"
 		lblTotal.Size = New Size(86, 20)
 		lblTotal.TabIndex = 7

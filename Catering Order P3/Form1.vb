@@ -22,10 +22,6 @@
 		Dim pointSub = Convert.ToInt32(loyaltyCt / 10)
 		Dim totalPrice = itemPrice - ((PERCENT_OFF * pointSub) * itemPrice)
 
-		If totalPrice < 0.0 Then
-			totalPrice = 0.00
-		End If
-
 		Return totalPrice
 	End Function
 
@@ -84,7 +80,11 @@
 
 			If checkMealSelection() And checkPaySelection() Then
 				Dim totalPrice = calcPrice(foodPrice, input)
-				outputPrice(totalPrice, input, payStr)
+				If totalPrice <= 0 Then
+					MessageBox.Show("Too many loyalty points! Enter less to complete order.", "Loyalty Point Limit Exceeded")
+				Else
+					outputPrice(totalPrice, input, payStr)
+				End If
 			End If
 		End If
 	End Sub
