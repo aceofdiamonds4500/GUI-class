@@ -1,0 +1,18 @@
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\bin\Debug\net8.0-windows\Smart Home Savings A7.exe
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\bin\Debug\net8.0-windows\Smart Home Savings A7.deps.json
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\bin\Debug\net8.0-windows\Smart Home Savings A7.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\bin\Debug\net8.0-windows\Smart Home Savings A7.dll
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\bin\Debug\net8.0-windows\Smart Home Savings A7.pdb
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart_Home_Savings_A7.Form1.resources
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart_Home_Savings_A7.Resources.resources
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.dll
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\refint\Smart Home Savings A7.dll
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.pdb
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\Smart Home Savings A7.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Smart Home Savings A7\obj\Debug\net8.0-windows\ref\Smart Home Savings A7.dll
