@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Smart Home Savings A7"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b10445ee1246eb8bc437734a9d0ad46ac19e4c8"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+428c32310d68d060f3fbb455069690d883df965a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Smart Home Savings A7"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Smart Home Savings A7"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
