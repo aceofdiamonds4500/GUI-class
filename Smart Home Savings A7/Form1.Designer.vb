@@ -67,6 +67,7 @@ Partial Class Form1
 		' 
 		' btnStatistics
 		' 
+		btnStatistics.Anchor = AnchorStyles.Top
 		btnStatistics.BackColor = Color.FromArgb(CByte(0), CByte(0), CByte(192))
 		btnStatistics.Cursor = Cursors.Hand
 		btnStatistics.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
@@ -80,6 +81,7 @@ Partial Class Form1
 		' 
 		' lblMonthStat
 		' 
+		lblMonthStat.Anchor = AnchorStyles.Top
 		lblMonthStat.AutoSize = True
 		lblMonthStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		lblMonthStat.Location = New Point(207, 286)
@@ -90,6 +92,7 @@ Partial Class Form1
 		' 
 		' lblAvgStat
 		' 
+		lblAvgStat.Anchor = AnchorStyles.Top
 		lblAvgStat.AutoSize = True
 		lblAvgStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		lblAvgStat.Location = New Point(218, 382)
@@ -100,6 +103,7 @@ Partial Class Form1
 		' 
 		' lblMostSavedStat
 		' 
+		lblMostSavedStat.Anchor = AnchorStyles.Top
 		lblMostSavedStat.AutoSize = True
 		lblMostSavedStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		lblMostSavedStat.Location = New Point(167, 420)
