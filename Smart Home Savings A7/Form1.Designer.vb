@@ -47,7 +47,7 @@ Partial Class Form1
 		lblHeader.Anchor = AnchorStyles.Top Or AnchorStyles.Right
 		lblHeader.AutoSize = True
 		lblHeader.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblHeader.Location = New Point(468, 56)
+		lblHeader.Location = New Point(465, 56)
 		lblHeader.Name = "lblHeader"
 		lblHeader.Size = New Size(215, 74)
 		lblHeader.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class Form1
 		boxMonths.DropDownStyle = ComboBoxStyle.DropDownList
 		boxMonths.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		boxMonths.FormattingEnabled = True
-		boxMonths.Location = New Point(513, 185)
+		boxMonths.Location = New Point(510, 185)
 		boxMonths.Name = "boxMonths"
 		boxMonths.Size = New Size(121, 29)
 		boxMonths.TabIndex = 2
@@ -72,7 +72,7 @@ Partial Class Form1
 		btnStatistics.Cursor = Cursors.Hand
 		btnStatistics.Font = New Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
 		btnStatistics.ForeColor = SystemColors.ControlLightLight
-		btnStatistics.Location = New Point(263, 324)
+		btnStatistics.Location = New Point(262, 324)
 		btnStatistics.Name = "btnStatistics"
 		btnStatistics.Size = New Size(201, 45)
 		btnStatistics.TabIndex = 3
@@ -84,7 +84,7 @@ Partial Class Form1
 		lblMonthStat.Anchor = AnchorStyles.Top
 		lblMonthStat.AutoSize = True
 		lblMonthStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblMonthStat.Location = New Point(207, 286)
+		lblMonthStat.Location = New Point(206, 286)
 		lblMonthStat.Name = "lblMonthStat"
 		lblMonthStat.Size = New Size(295, 21)
 		lblMonthStat.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class Form1
 		lblAvgStat.Anchor = AnchorStyles.Top
 		lblAvgStat.AutoSize = True
 		lblAvgStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblAvgStat.Location = New Point(218, 382)
+		lblAvgStat.Location = New Point(217, 382)
 		lblAvgStat.Name = "lblAvgStat"
 		lblAvgStat.Size = New Size(284, 21)
 		lblAvgStat.TabIndex = 5
@@ -106,7 +106,7 @@ Partial Class Form1
 		lblMostSavedStat.Anchor = AnchorStyles.Top
 		lblMostSavedStat.AutoSize = True
 		lblMostSavedStat.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-		lblMostSavedStat.Location = New Point(167, 420)
+		lblMostSavedStat.Location = New Point(166, 420)
 		lblMostSavedStat.Name = "lblMostSavedStat"
 		lblMostSavedStat.Size = New Size(380, 21)
 		lblMostSavedStat.TabIndex = 6
@@ -117,7 +117,7 @@ Partial Class Form1
 		AutoScaleDimensions = New SizeF(7.0F, 15.0F)
 		AutoScaleMode = AutoScaleMode.Font
 		BackColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
-		ClientSize = New Size(727, 462)
+		ClientSize = New Size(724, 461)
 		Controls.Add(lblMostSavedStat)
 		Controls.Add(lblAvgStat)
 		Controls.Add(lblMonthStat)

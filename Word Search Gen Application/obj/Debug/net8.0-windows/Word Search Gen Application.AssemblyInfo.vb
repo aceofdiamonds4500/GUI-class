@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Word Search Gen Application"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b10445ee1246eb8bc437734a9d0ad46ac19e4c8"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c08f122abe0a5792b860bc48f4ee5455eea8a2"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Word Search Gen Application"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Word Search Gen Application"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
