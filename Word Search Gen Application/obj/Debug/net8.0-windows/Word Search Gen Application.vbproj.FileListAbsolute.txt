@@ -1,0 +1,17 @@
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\bin\Debug\net8.0-windows\Word Search Gen Application.exe
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\bin\Debug\net8.0-windows\Word Search Gen Application.deps.json
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\bin\Debug\net8.0-windows\Word Search Gen Application.runtimeconfig.json
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\bin\Debug\net8.0-windows\Word Search Gen Application.dll
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\bin\Debug\net8.0-windows\Word Search Gen Application.pdb
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word_Search_Gen_Application.Form1.resources
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.vbproj.GenerateResource.cache
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.AssemblyInfoInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.AssemblyInfo.vb
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.vbproj.CoreCompileInputs.cache
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.sourcelink.json
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.dll
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\refint\Word Search Gen Application.dll
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.pdb
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\Word Search Gen Application.genruntimeconfig.cache
+C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\obj\Debug\net8.0-windows\ref\Word Search Gen Application.dll
