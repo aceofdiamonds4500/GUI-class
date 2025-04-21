@@ -1,6 +1,18 @@
 ﻿Imports System.DirectoryServices
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
+''' <summary>
+''' Project: Word Search Generator Application
+''' Author: Nicholas Cieplensky
+''' Description:
+'''		This is my magnum opus: interoperability of C/C++ code into Visual Basic using a Dynamic-Link Library. It has many functionalities:
+'''		- Buttons to remake, generate, and add words to a word search
+'''		- Native functions to access, remove, and add words to a word list
+'''		- Labels, a TextBox for adding words (and input validation), a ComboBox for viewing unadded words
+'''		- Button greying to avoid bad input
+'''		- Generating a word search writes it to a file in a readable/copy-able format
+'''		I had to do heaps of research into invoking methods, translating C++ code to C code, and even having to re-learn pointers for this specific project.
+''' </summary>
 Public Class Form1
 	Inherits Form
 
@@ -9,10 +21,11 @@ Public Class Form1
 	Private wordSearch As WordSearch
 	Private wordList As WordList
 	Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-		' Create a 15x15 word search
+		'Makes a 15x15 word search, ranges from 12 to 50
 		wordSearch = New WordSearch(15, 15)
 		wordList = New WordList()
 
+		'All buttons disabled until a word is typed/added to list/inserted to word search
 		btnNewWS.Enabled = False
 		btnGenerate.Enabled = False
 		btnAddToWS.Enabled = False
@@ -25,6 +38,8 @@ Public Class Form1
 		btnWordAdd.Enabled = True
 	End Sub
 
+	'Will return False if an input is invalid, but will create a Word object and return True if valid
+	'valid input: must have a letter, must be < 15 letters (apostrophes and other characters don't count
 	Private Function InputValidate(inpWord As String)
 		Dim word As Word
 		Dim wordFilter As String = ""
@@ -120,6 +135,8 @@ Public Class Form1
 
 	Private Sub btnWordRemove_Click(sender As Object, e As EventArgs) Handles btnWordRemove.Click
 		Dim wordSelect As Integer = cbxWordList.SelectedIndex
+		'fun fact: did you know I forgot to add this function until today?
+		'until now I was accessing a value using wordList[index] but VB is stupid and that doesn't work here
 		Dim wordOnList As Word = wordList.GetWordAt(wordSelect)
 
 		wordList.RemoveWord(wordOnList)
