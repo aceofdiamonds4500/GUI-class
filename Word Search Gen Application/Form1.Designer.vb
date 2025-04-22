@@ -164,6 +164,7 @@ Partial Class Form1
 		Controls.Add(lblHeader)
 		MinimumSize = New Size(600, 400)
 		Name = "Form1"
+		StartPosition = FormStartPosition.CenterScreen
 		Text = "Word Search Generator"
 		ResumeLayout(False)
 		PerformLayout()
