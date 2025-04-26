@@ -120,7 +120,7 @@ Public Class Form1
 
 	Private Sub btnGenerate_Click(sender As Object, e As EventArgs) Handles btnGenerate.Click
 		wordSearch.WriteToFile(wordList, filename)
-		MessageBox.Show("Word Search written to '{filename}'!", "Success")
+		MessageBox.Show("Word Search written to wordsearch.txt!", "Success")
 
 		NewWSGen()
 	End Sub

@@ -17,19 +17,19 @@ Public Class Word
 
     'oh my god you have to import every single function
     'remind me to never do this again
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function CreateWord(inputWord As String) As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Sub DestroyWord(wordPtr As IntPtr)
     End Sub
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordToString(wordPtr As IntPtr) As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordGetLength(wordPtr As IntPtr) As Integer
     End Function
 
@@ -81,31 +81,31 @@ Public Class WordList
     Private wordListPtr As IntPtr
 
     'imports
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function CreateWordList() As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Sub DestroyWordList(wordListPtr As IntPtr)
     End Sub
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Sub WordListAddWord(wordListPtr As IntPtr, wordPtr As IntPtr)
     End Sub
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordListRemoveWord(wordListPtr As IntPtr, wordPtr As IntPtr) As Boolean
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordListGetCount(wordListPtr As IntPtr) As Integer
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordListGetWordAt(wordListPtr As IntPtr, index As Integer) As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordListToString(wordListPtr As IntPtr) As IntPtr
     End Function
 
@@ -171,23 +171,23 @@ Public Class WordSearch
     Private wordSearchPtr As IntPtr
 
     'imports
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function CreateWordSearch(ySize As Integer, xSize As Integer) As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Sub DestroyWordSearch(wordSearchPtr As IntPtr)
     End Sub
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordSearchAddWord(wordSearchPtr As IntPtr, word As String) As Boolean
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordSearchToString(wordSearchPtr As IntPtr) As IntPtr
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Sub WordSearchWriteToFile(wordSearchPtr As IntPtr, wordListPtr As IntPtr, filename As String)
     End Sub
 
@@ -195,11 +195,11 @@ Public Class WordSearch
     Private Shared Function WordSearchGetYSize(wordSearchPtr As IntPtr) As Integer
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordSearchGetXSize(wordSearchPtr As IntPtr) As Integer
     End Function
 
-    <DllImport("C:\Users\tacop\source\repos\GUI-class\Word Search Gen Application\WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
+    <DllImport("WordDLL.dll", CallingConvention:=CallingConvention.Cdecl)>
     Private Shared Function WordSearchGetChar(wordSearchPtr As IntPtr, col As Integer, row As Integer) As Char
     End Function
 
