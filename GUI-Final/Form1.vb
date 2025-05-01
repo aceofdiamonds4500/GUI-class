@@ -1,4 +1,15 @@
-﻿Public Class Form1
+﻿''' <summary>
+''' Project: Measurement Converter 2 [FINAL]
+''' Author: Nicholas Cieplensky
+''' Description:
+'''		This is my final project for GUI Dev - a revision of the measurement converter I once wrote for the midterm.
+'''		It does three main tasks:
+'''		- Takes input and converts the inches to meters OR meters to inches
+'''		- Writes the result to the on-screen list (can also clear the result)
+'''		- Writes the contents of the ListBox to a file (can also clear the ListBox
+'''		
+''' </summary>
+Public Class Form1
 	Private filename As String = "filemeasures.txt"
 
 	Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -7,7 +18,7 @@
 	End Sub
 
 	'**This code is reused from the Midterm.
-	'controls conversion
+	'Controls conversions
 	Private Sub btnConvert_Click(sender As Object, e As EventArgs) Handles btnConvert.Click
 		'empty input conditional
 		If txtInput.Text = "" Then
@@ -30,14 +41,14 @@
 		End If
 	End Sub
 
-	' puts word in list
+	'Saves the result of the conversion to the ListBox
 	Private Sub btnSaveToList_Click(sender As Object, e As EventArgs) Handles btnSaveToList.Click
 		If lblConverted.Text IsNot "" Then
 			lstConvertList.Items.Add(lblConverted.Text)
 		End If
 	End Sub
 
-	' clears recent convert
+	'Clears label containing result, returns focus to TextBox
 	Private Sub btnClearResults_Click(sender As Object, e As EventArgs) Handles btnClearResults.Click
 		lblConverted.Text = ""
 		txtInput.Text = ""
@@ -45,20 +56,22 @@
 		rdioInToM.Checked = True
 	End Sub
 
-	' clear entire list
+	'Clears items from ListBox
 	Private Sub btnClearList_Click(sender As Object, e As EventArgs) Handles btnClearList.Click
 		lstConvertList.Items.Clear()
 	End Sub
 
-	' save to file
+	'Saves each item in ListBox to filename
 	Private Sub btnSaveToFile_Click(sender As Object, e As EventArgs) Handles btnSaveToFile.Click
 		Dim file As System.IO.StreamWriter
 		file = My.Computer.FileSystem.OpenTextFileWriter(filename, True)
+		'prevents writing an empty list to the file
 		If lstConvertList.Items.Count > 0 Then
 			For i = 0 To lstConvertList.Items.Count - 1
 				file.WriteLine(lstConvertList.Items(i))
 			Next i
 
+			'Saved 0 entries to filemeasures.txt
 			lblSaveStatus.Text = "Saved " + lstConvertList.Items.Count.ToString() + " entries to " + filename
 		End If
 
